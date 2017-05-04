@@ -15,7 +15,6 @@ def myNetwork():
 
     info( '*** Add switches\n')
     s1 = net.addSwitch('s1')
-#   Intf( 'eth0', node=s1 ) #Some Problem
 
     info( '*** Add hosts\n')
     h1 = net.addHost('h1', ip='0.0.0.0')
